@@ -28,6 +28,9 @@ body {
   font-family: Minion, Tahoma, Sans-Serif;
 }
 
+.center {
+    text-align: center;
+    }
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
