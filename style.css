@@ -25,7 +25,8 @@ img {
 }
 
 body {
-  margin: 0;
+  max-width: 90%;
+  margin: auto;
   font-family: Minion, Tahoma, Sans-Serif;
 }
 
