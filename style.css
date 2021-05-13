@@ -3,9 +3,7 @@ html * {
     background-color:;
     font-family: Minion, Tahoma, Sans-Serif;
 }
-nav {
-    text-align: right;
-}
+
 h1 {
     text-align: center;
 }
@@ -73,4 +71,32 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: black;
+  color: white;
 }
