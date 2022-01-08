@@ -100,8 +100,17 @@ body {
   background-color: black;
   color: white;
 }
-.holidaycard {
+.border {
+  border: solid black 1px;
+  float:center;
   display:flex;
-  flex: 50%;
+}
+
+.holidaycard {
+  float: center;
+  display:flex;
+  flex: 100%;
+  flex: 25%;
   padding: 5px;
 }
+
